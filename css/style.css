@@ -1,0 +1,103 @@
+:root{
+    --main-color:#009AD8;
+    --body-color:#212529;
+    --main-text:#BFC1BA;
+}
+nav .logo{
+    font-size: .625rem !important;
+}
+nav ul .active{
+    border: .1875rem solid var(--main-color) !important;
+    color: var(--main-color);
+    border-radius:1.875rem ;
+}
+nav ul a{
+    padding: .3125rem 1.5625rem;
+    border: .125rem solid transparent;
+    text-decoration: none;
+    border-radius: 1.875rem;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+nav ul a:checked{
+    border-color: red !important;
+}
+nav ul a:hover{
+    border-color:var(--main-color);
+    color: var(--main-color);
+}
+.navbar-toggler {
+    background: none;
+    border: .125rem solid transparent;
+    color: white;
+    padding: 1.25rem;
+    border-radius: 2.5rem;
+    transition: 0.3s ease;
+}
+.navbar-toggler:hover{
+    border-color: var(--main-color);
+}
+/* ******************************* */
+header{
+    background-image: url("../images/12.png");
+    background-repeat: no-repeat;
+    padding: 3rem;
+    background-color: var(--body-color);
+}
+.search{
+    position: relative;
+    border-radius: 1.875rem !important;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+    margin-block: 2rem;
+}
+.find{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding-inline: 40px;
+    border: 1px solid #000;
+    background-color: var(--main-color);
+    color: white;
+}
+header .card{
+    background-color:#323544 ;
+    color: #fff;
+}
+header .tomorrow .card-body p,header .after-tomorrow .card-body p{
+    font-size: 22px;
+}
+header .deg{
+    font-size: 4rem;
+}
+header .deg-info{
+    color: #009AD8;
+}
+/* ******************************* */
+footer{
+    background-color: #262936;
+    color: white;
+    padding: 3.125rem;
+}
+footer .socials{
+    display: flex;
+    justify-content:center ;
+    gap: 1rem;
+}
+footer .socials i{
+    text-align: center;
+    display: inline-block;
+    width: 2.5rem;
+    padding: .625rem;
+    border-radius: 50%;
+    border: .0625rem solid var(--body-color);
+    background-color:var(--body-color);
+    color:var(--main-color)
+}
+footer .socials i:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
+

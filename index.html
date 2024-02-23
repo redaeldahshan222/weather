@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="shortcut icon" href="images/11.png" type="image/x-icon">
+    <!-- Css Links -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container py-3">
+            <div class="logo d-flex align-items-center">
+                <a href="#"><img class="w-75" src="images/11.png" alt="nav-logo-img"></a>
+                <div class="logo-text">
+                <a class="navbar-brand" href="#">Weather</a>
+                <p class="text-white">Tagline Goes Here</p>
+                </div>
+            </div>
+            <button
+                class="navbar-toggler d-md-block d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-grip-lines"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto gap-4 mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="active " href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="" href="contactus.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>    
+    <header>
+        <div class="container">
+        <div class="search">
+                    <input id="searchInput" type="search" class="input-data form-control " placeholder="Find Your Location">
+                    <input id="searchButton" type="button" class="find rounded rounded-pill text-center" value="Find">
+        </div>
+        <div class="result">
+            <div>
+                    <div class="row gap-4">
+                        <div class="col md-4">
+                            <div class="today">
+                            </div>
+                        </div>
+                        <div class="col md-4">
+                            <div class="tomorrow">
+                            </div>
+                        </div>
+                        <div class="col md-4">
+                            <div class="after-tomorrow">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <footer>
+        <div class="container">
+            <div class="row align-items-center">
+            <div class=" col-md-6">
+                <div class="search">                    
+                    <input type="email" class="input-data form-control" placeholder="Enter Your Email to Subscribe">
+                    <input type="button" class="find rounded rounded-pill text-center" value="Subscribe">            
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="socials">                    
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.google.com" target="_blank"><i class="fa-brands fa-google"></i></a>
+                <a href="https://www.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+            </div>
+            <p class="m-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+    <!-- Js Links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
